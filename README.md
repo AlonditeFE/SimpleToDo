@@ -32,7 +32,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+It took me a long time implamenting the delete feature because I kept final ItemsAdapter on line 54 of my MainActivity java file.
+This caused the app to crash with a null reference exception on line 48 of my MainActivity java file and line 69 of my ItemsAdapter java file.
 
 ## License
 
